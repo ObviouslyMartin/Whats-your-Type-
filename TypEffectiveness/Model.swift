@@ -73,11 +73,11 @@ class TypeEffectiveness{
         
         selectedCardIndex = index
         clearArrays()
-        if position == "Attacking" {findstrengths(idx: index)}
+        if position == "Attacking" {findStrengths(idx: index)}
         else                       {findWeaknesses(idx: index)}
 
     }
-    func findstrengths(idx: Int){
+    func findStrengths(idx: Int){
         for i in stats[idx].indices{
             if stats[idx][i] == 0{
                 DamageX0.append(types[i])

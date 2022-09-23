@@ -17,7 +17,7 @@
 		A22317DC2788EAED00F0B3D0 /* TypEffectivenessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22317DB2788EAED00F0B3D0 /* TypEffectivenessTests.swift */; };
 		A22317E62788EAED00F0B3D0 /* TypEffectivenessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22317E52788EAED00F0B3D0 /* TypEffectivenessUITests.swift */; };
 		A22317E82788EAED00F0B3D0 /* TypEffectivenessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22317E72788EAED00F0B3D0 /* TypEffectivenessUITestsLaunchTests.swift */; };
-		A22317F62788EB8700F0B3D0 /* TypeEffectiveness.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22317F52788EB8700F0B3D0 /* TypeEffectiveness.swift */; };
+		A22317F62788EB8700F0B3D0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22317F52788EB8700F0B3D0 /* Model.swift */; };
 		A22317F92788EBB700F0B3D0 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22317F82788EBB700F0B3D0 /* Card.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,7 +53,7 @@
 		A22317E12788EAED00F0B3D0 /* TypEffectivenessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TypEffectivenessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A22317E52788EAED00F0B3D0 /* TypEffectivenessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypEffectivenessUITests.swift; sourceTree = "<group>"; };
 		A22317E72788EAED00F0B3D0 /* TypEffectivenessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypEffectivenessUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		A22317F52788EB8700F0B3D0 /* TypeEffectiveness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeEffectiveness.swift; sourceTree = "<group>"; };
+		A22317F52788EB8700F0B3D0 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		A22317F82788EBB700F0B3D0 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,8 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				A22317F42788EB1700F0B3D0 /* assests */,
-				A22317F52788EB8700F0B3D0 /* TypeEffectiveness.swift */,
 				A22317D22788EAED00F0B3D0 /* Info.plist */,
+				A22317F52788EB8700F0B3D0 /* Model.swift */,
 				A22317F82788EBB700F0B3D0 /* Card.swift */,
 				A22317C82788EAEB00F0B3D0 /* ViewController.swift */,
 				A22317CA2788EAEB00F0B3D0 /* Main.storyboard */,
@@ -279,7 +279,7 @@
 				A22317C92788EAEB00F0B3D0 /* ViewController.swift in Sources */,
 				A22317C52788EAEB00F0B3D0 /* AppDelegate.swift in Sources */,
 				A22317F92788EBB700F0B3D0 /* Card.swift in Sources */,
-				A22317F62788EB8700F0B3D0 /* TypeEffectiveness.swift in Sources */,
+				A22317F62788EB8700F0B3D0 /* Model.swift in Sources */,
 				A22317C72788EAEB00F0B3D0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
