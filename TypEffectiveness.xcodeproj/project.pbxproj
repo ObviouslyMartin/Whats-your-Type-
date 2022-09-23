@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A217ED3B27896106005B6513 /* pokemon-app-icon-0.png in Resources */ = {isa = PBXBuildFile; fileRef = A217ED3A27896106005B6513 /* pokemon-app-icon-0.png */; };
 		A22317C52788EAEB00F0B3D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22317C42788EAEB00F0B3D0 /* AppDelegate.swift */; };
 		A22317C72788EAEB00F0B3D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22317C62788EAEB00F0B3D0 /* SceneDelegate.swift */; };
 		A22317C92788EAEB00F0B3D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22317C82788EAEB00F0B3D0 /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 		A22317DC2788EAED00F0B3D0 /* TypEffectivenessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22317DB2788EAED00F0B3D0 /* TypEffectivenessTests.swift */; };
 		A22317E62788EAED00F0B3D0 /* TypEffectivenessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22317E52788EAED00F0B3D0 /* TypEffectivenessUITests.swift */; };
 		A22317E82788EAED00F0B3D0 /* TypEffectivenessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22317E72788EAED00F0B3D0 /* TypEffectivenessUITestsLaunchTests.swift */; };
+		A22317F62788EB8700F0B3D0 /* TypeEffectiveness.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22317F52788EB8700F0B3D0 /* TypeEffectiveness.swift */; };
+		A22317F92788EBB700F0B3D0 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22317F82788EBB700F0B3D0 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A217ED3A27896106005B6513 /* pokemon-app-icon-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pokemon-app-icon-0.png"; sourceTree = "<group>"; };
 		A22317C12788EAEB00F0B3D0 /* TypEffectiveness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TypEffectiveness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A22317C42788EAEB00F0B3D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A22317C62788EAEB00F0B3D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,8 @@
 		A22317E12788EAED00F0B3D0 /* TypEffectivenessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TypEffectivenessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A22317E52788EAED00F0B3D0 /* TypEffectivenessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypEffectivenessUITests.swift; sourceTree = "<group>"; };
 		A22317E72788EAED00F0B3D0 /* TypEffectivenessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypEffectivenessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A22317F52788EB8700F0B3D0 /* TypeEffectiveness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeEffectiveness.swift; sourceTree = "<group>"; };
+		A22317F82788EBB700F0B3D0 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +105,12 @@
 		A22317C32788EAEB00F0B3D0 /* TypEffectiveness */ = {
 			isa = PBXGroup;
 			children = (
-				A22317C42788EAEB00F0B3D0 /* AppDelegate.swift */,
-				A22317C62788EAEB00F0B3D0 /* SceneDelegate.swift */,
+				A22317F42788EB1700F0B3D0 /* assests */,
+				A22317F52788EB8700F0B3D0 /* TypeEffectiveness.swift */,
+				A22317D22788EAED00F0B3D0 /* Info.plist */,
+				A22317F82788EBB700F0B3D0 /* Card.swift */,
 				A22317C82788EAEB00F0B3D0 /* ViewController.swift */,
 				A22317CA2788EAEB00F0B3D0 /* Main.storyboard */,
-				A22317CD2788EAED00F0B3D0 /* Assets.xcassets */,
-				A22317CF2788EAED00F0B3D0 /* LaunchScreen.storyboard */,
-				A22317D22788EAED00F0B3D0 /* Info.plist */,
 			);
 			path = TypEffectiveness;
 			sourceTree = "<group>";
@@ -125,6 +130,18 @@
 				A22317E72788EAED00F0B3D0 /* TypEffectivenessUITestsLaunchTests.swift */,
 			);
 			path = TypEffectivenessUITests;
+			sourceTree = "<group>";
+		};
+		A22317F42788EB1700F0B3D0 /* assests */ = {
+			isa = PBXGroup;
+			children = (
+				A22317CD2788EAED00F0B3D0 /* Assets.xcassets */,
+				A217ED3A27896106005B6513 /* pokemon-app-icon-0.png */,
+				A22317C42788EAEB00F0B3D0 /* AppDelegate.swift */,
+				A22317C62788EAEB00F0B3D0 /* SceneDelegate.swift */,
+				A22317CF2788EAED00F0B3D0 /* LaunchScreen.storyboard */,
+			);
+			path = assests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +251,7 @@
 				A22317D12788EAED00F0B3D0 /* LaunchScreen.storyboard in Resources */,
 				A22317CE2788EAED00F0B3D0 /* Assets.xcassets in Resources */,
 				A22317CC2788EAEB00F0B3D0 /* Main.storyboard in Resources */,
+				A217ED3B27896106005B6513 /* pokemon-app-icon-0.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +278,8 @@
 			files = (
 				A22317C92788EAEB00F0B3D0 /* ViewController.swift in Sources */,
 				A22317C52788EAEB00F0B3D0 /* AppDelegate.swift in Sources */,
+				A22317F92788EBB700F0B3D0 /* Card.swift in Sources */,
+				A22317F62788EB8700F0B3D0 /* TypeEffectiveness.swift in Sources */,
 				A22317C72788EAEB00F0B3D0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
