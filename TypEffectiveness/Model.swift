@@ -20,6 +20,8 @@ class TypeEffectiveness{
         "grass", "electric", "psychic", "ice", "dragon",
         "dark", "fairy"
     ]
+    // stats[x][y] = damage multiplier
+    // stats [0][1] = normal type attack multiplier against fighting defense 
     let stats = [
         [1,1,1,1,1,0.5,1,0,0.5,1,1,1,1,1,1,1,1,1],
         [2,1,0.5,0.5,1,2,0.5,0,2,1,1,1,1,0.5,2,1,2,0.5],
