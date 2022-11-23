@@ -39,6 +39,7 @@ class ViewController: UIViewController {
         te.changePosition()
         if position == "Attacking"{ position = "Defending"}
         else {position = "Attacking"}
+        sender.setTitle(position, for: UIControl.State.normal)
         updateViewFromModel()
     }
     
@@ -66,20 +67,7 @@ class ViewController: UIViewController {
         typelist.append(contentsOf: lst[x])
         return typelist
     }
-    private func createEffectivenessString() -> String{
-        
-        var effectivenessString = "0x Damage: " + listHelper(lst: te.DamageX0) + "\n"
-        effectivenessString += "--------------------------------------" + "\n"
-        effectivenessString += ".5x Damage: " + listHelper(lst: te.DamageXhalf) + "\n"
-        effectivenessString += "--------------------------------------" + "\n"
-//        effectivenessString += "1x Damage: " + listHelper(lst: te.DamageX1) + "\n"
-//        effectivenessString += "--------------------------------------" + "\n"
-        effectivenessString += "2x Damage: " + listHelper(lst: te.DamageX2) + "\n"
-        effectivenessString += "--------------------------------------"
-        
-        return effectivenessString
-        
-    }
+
     private func updateTextView(effectiveness: String){
         effectivenessText.text = effectiveness
     }
@@ -97,6 +85,20 @@ class ViewController: UIViewController {
             }
         }
         updateTextView(effectiveness: createEffectivenessString())
+    }
+    private func createEffectivenessString() -> String{
+        
+        var effectivenessString = "0x Damage: " + listHelper(lst: te.DamageX0) + "\n"
+        effectivenessString += "--------------------------------------" + "\n"
+        effectivenessString += ".5x Damage: " + listHelper(lst: te.DamageXhalf) + "\n"
+        effectivenessString += "--------------------------------------" + "\n"
+        //        effectivenessString += "1x Damage: " + listHelper(lst: te.DamageX1) + "\n"
+        //        effectivenessString += "--------------------------------------" + "\n"
+        effectivenessString += "2x Damage: " + listHelper(lst: te.DamageX2) + "\n"
+        effectivenessString += "--------------------------------------"
+        
+        return effectivenessString
+        
     }
 }
 

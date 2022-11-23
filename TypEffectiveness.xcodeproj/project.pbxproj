@@ -19,6 +19,7 @@
 		A22317E82788EAED00F0B3D0 /* TypEffectivenessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22317E72788EAED00F0B3D0 /* TypEffectivenessUITestsLaunchTests.swift */; };
 		A22317F62788EB8700F0B3D0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22317F52788EB8700F0B3D0 /* Model.swift */; };
 		A22317F92788EBB700F0B3D0 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22317F82788EBB700F0B3D0 /* Card.swift */; };
+		A25DA150292ECC0A00B7CAD0 /* Main2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A25DA14F292ECC0A00B7CAD0 /* Main2.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		A22317E72788EAED00F0B3D0 /* TypEffectivenessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypEffectivenessUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A22317F52788EB8700F0B3D0 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		A22317F82788EBB700F0B3D0 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		A25DA14F292ECC0A00B7CAD0 /* Main2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main2.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				A22317F82788EBB700F0B3D0 /* Card.swift */,
 				A22317C82788EAEB00F0B3D0 /* ViewController.swift */,
 				A22317CA2788EAEB00F0B3D0 /* Main.storyboard */,
+				A25DA14F292ECC0A00B7CAD0 /* Main2.storyboard */,
 			);
 			path = TypEffectiveness;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				A22317D12788EAED00F0B3D0 /* LaunchScreen.storyboard in Resources */,
 				A22317CE2788EAED00F0B3D0 /* Assets.xcassets in Resources */,
 				A22317CC2788EAEB00F0B3D0 /* Main.storyboard in Resources */,
+				A25DA150292ECC0A00B7CAD0 /* Main2.storyboard in Resources */,
 				A217ED3B27896106005B6513 /* pokemon-app-icon-0.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
